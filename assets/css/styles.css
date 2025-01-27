@@ -1,0 +1,52 @@
+body {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 0.8; /* Efecto de opacidad en la imagen */
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 1.8rem; /* Tamaño de texto en móvil */
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.btn-wsp {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+}
